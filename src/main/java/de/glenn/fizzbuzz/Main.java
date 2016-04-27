@@ -41,7 +41,7 @@ public class Main {
                 Option.builder()
                         .required( false )
                         .longOpt( "help" )
-                        .desc( "print this help message" )
+                        .desc( "chose version 1,2,3. For version 3 output will go directly to a newly created file working directory" )
                         .build()
         );
 
